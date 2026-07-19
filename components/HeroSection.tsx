@@ -18,8 +18,8 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onNavigate, onCategory
   const contactContent = CONTACT_DATA[language];
   const personal = SITE_CONTENT.personal;
   const tooltipText = contactContent.tooltip || (language === 'zh' 
-    ? '在此填写你的所在地说明' 
-    : 'Add a short note about your location');
+    ? '目前在厦门读研，工作地点都可以接受' 
+    : 'Currently studying in Xiamen, willing to relocate to any location');
   const heroItems = content.heroItems || [];
   const [showToast, setShowToast] = useState(false);
   const [showLocationTooltip, setShowLocationTooltip] = useState(false);
