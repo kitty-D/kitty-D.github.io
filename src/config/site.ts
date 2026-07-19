@@ -30,5 +30,5 @@ export const SITE_CONFIG = {
       tooltipHost: SITE_CONTENT.social.px500.tooltipHost,
     },
   },
-  basePath: '/kitty-D.github.io/',
+  basePath: '/',
 } as const;
