@@ -81,7 +81,7 @@ export const SITE_CONTENT: SiteContent = {
     email: '2569503257@qq.com',
     hello: '你好 ;-)',
     intro: '欢迎探讨与合作。',
-    tooltip: '在此填写你的所在地说明',
+    tooltip: '目前在厦门读研，工作地点都可以接受',
   },
   social: {
     github: { url: 'https://github.com/yourusername', handle: '@yourusername' },
